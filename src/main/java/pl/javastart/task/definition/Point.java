@@ -29,16 +29,16 @@ public class Point {
             quarter = " leży na osi X";
         }
         if (coordinateX > 0 && coordinateY > 0) {
-            quarter = " leży w I ćwiartce";
+            quarter = " leży w I ćwiartce układu współrzędnych";
         }
         if (coordinateX < 0 && coordinateY > 0) {
-            quarter = " leży w II ćwiartce";
+            quarter = " leży w II ćwiartce układu współrzędnych";
         }
         if (coordinateX < 0 && coordinateY < 0) {
-            quarter = " leży w III ćwiartce";
+            quarter = " leży w III ćwiartce układu współrzędnych";
         }
         if (coordinateX > 0 && coordinateY < 0) {
-            quarter = " leży w IV ćwiartce";
+            quarter = " leży w IV ćwiartce układu współrzędnych";
         }
         return quarter;
     }
