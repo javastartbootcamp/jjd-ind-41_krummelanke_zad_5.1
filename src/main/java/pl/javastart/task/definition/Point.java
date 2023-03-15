@@ -3,7 +3,6 @@ package pl.javastart.task.definition;
 public class Point {
     private int coordinateX;
     private int coordinateY;
-    private String quarter = null;
 
     public Point(int coordinateX, int coordinateY) {
         this.coordinateX = coordinateX;
@@ -19,6 +18,8 @@ public class Point {
     }
 
     public String returnQarter() {
+        String quarter = null;
+
         if (coordinateX == 0 && coordinateY == 0) {
             quarter = " leży na środku układu współrzędnych";
         }
